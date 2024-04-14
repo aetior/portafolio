@@ -4,10 +4,12 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
 a{
     text-decoration: none;
     color: white; 
+
 }
 header{
     display: flex;
@@ -18,16 +20,19 @@ header{
     align-items: center;
     position: fixed;
     width: 100%;
+
 }
 ul{
     display: flex;
-    gap: 30px
+    gap: 30px;
+
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 .section1{
     align-items: center;
@@ -35,14 +40,21 @@ main{
     width: 50vw;
     display: flex;
     align-items: center;
-    flex-direction: column;
     gap: 15px;
     margin-top: 5rem;
+    justify-content: center;
+
 }
 section img{
-    width: 50vh;
-}
+    width: 30vh;
+    margin-right: auto;
 
+}
+.titleSection1{
+   margin: auto;
+   margin-left: 0;
+   font-size:x-large
+}
 
 .section2{
 margin-bottom: 5rem;
@@ -52,6 +64,7 @@ article:first-child {
     background-color: rgb(255, 127, 212);
     width: 50vw;
     height: 15vw;
+
 }
 article:nth-child(2){
     background-color: rgb(199, 2, 2);
@@ -63,11 +76,13 @@ article:nth-child(3){
     background-color: aquamarine;
     width: 50vw;
     height: 15vw;
+
 }
 article:nth-child(4){
     background-color: rgb(255, 210, 127);
     width: 50vw;
     height: 15vw;
+
 }
 
 .popUp{
@@ -79,9 +94,12 @@ article:nth-child(4){
     transform: translate(-50%, -50%);
     top: 50%; 
     left: 50%; 
-    flex-direction: row;
-    
-  
+    flex-direction: column;
+
+}
+.popUp>a>button{
+ width: 100%;
+
 }
 footer{
     height: 5vh;
@@ -93,4 +111,5 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0;
+    gap: 10px;
 }
