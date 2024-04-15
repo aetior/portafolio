@@ -73,6 +73,48 @@
 #pikachu:hover{
     box-shadow: 0px 0px 10px yellow;
 }
+#squirtle1{
+    background-image: url(assets/imagenesCarrusel/squirtle.jpg);
+    background-size: cover;
+}
+#squirtle1:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+
+#bulbasaur1{
+    background-image: url(assets/imagenesCarrusel/bulbasaur.png);
+    background-size: cover;
+    animation-delay: -4s;
+}
+#bulbasaur1:hover{
+    box-shadow: 0px 0px 10px green;
+}
+
+#charmander1{
+    background-image: url(assets/imagenesCarrusel/charmander.jpg);
+    background-size: cover;
+    animation-delay: -5s;
+}
+#charmander1:hover{
+    box-shadow: 0px 0px 10px red;
+}
+
+#pikachu1{
+    background-image: url(assets/imagenesCarrusel/pikachu.webp);
+    background-size: cover;
+    animation-delay: -6s;
+}
+#pikachu1:hover{
+    box-shadow: 0px 0px 10px yellow;
+}
+#bulbasaur2{
+    background-image: url(assets/imagenesCarrusel/bulbasaur.png);
+    background-size: cover;
+    animation-delay: -7s;
+}
+#bulbasaur2:hover{
+    box-shadow: 0px 0px 10px green;
+}
 
 .tarjeta h3{
     color: white;
